@@ -1,10 +1,11 @@
 package cmd
 
 import (
-	"file-manage/helper"
 	"fmt"
 	"os"
 	"time"
+
+	"github.com/EslRain/ftool/helper"
 
 	"github.com/spf13/cobra"
 )

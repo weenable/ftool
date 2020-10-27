@@ -1,12 +1,14 @@
 package cmd
 
 import (
-	"file-manage/helper"
-	"file-manage/model"
 	"fmt"
 	"os"
 	"path/filepath"
 	"time"
+
+	"github.com/EslRain/ftool/model"
+
+	"github.com/EslRain/ftool/helper"
 
 	"github.com/spf13/cobra"
 )

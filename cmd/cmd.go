@@ -1,12 +1,14 @@
 package cmd
 
 import (
-	"file-manage/helper"
-	"file-manage/model"
 	"fmt"
 	"os"
 	"regexp"
 	"strings"
+
+	"github.com/EslRain/ftool/model"
+
+	"github.com/EslRain/ftool/helper"
 
 	"github.com/spf13/cobra"
 )
@@ -20,8 +22,8 @@ var extension string
 var enableLog bool
 
 var RootCmd = &cobra.Command{
-	Use:     "filex",
-	Short:   "file manager",
+	Use:     "ftool",
+	Short:   "ftool",
 	Version: "v1.0.0",
 }
 

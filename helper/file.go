@@ -1,11 +1,12 @@
 package helper
 
 import (
-	"file-manage/model"
 	"fmt"
 	"os"
 	"path/filepath"
 	"strings"
+
+	"github.com/EslRain/ftool/model"
 )
 
 func GetFiles(folder string, isRecursive bool) ([]model.File, error) {

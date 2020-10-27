@@ -1,9 +1,10 @@
 package main
 
 import (
-	"file-manage/cmd"
 	"fmt"
 	"os"
+
+	"github.com/EslRain/ftool/cmd"
 )
 
 func main() {

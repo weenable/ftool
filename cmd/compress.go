@@ -2,12 +2,13 @@ package cmd
 
 import (
 	"archive/zip"
-	"file-manage/model"
 	"fmt"
 	"io"
 	"os"
 	"path/filepath"
 	"time"
+
+	"github.com/EslRain/ftool/model"
 
 	"github.com/spf13/cobra"
 )
